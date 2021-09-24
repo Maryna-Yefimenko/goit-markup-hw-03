@@ -1,0 +1,208 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --second-accent-color: #ffffff;
+  --black-text-color: #000000;
+  --grey-data-color: rgba(255, 255, 255, 0.6);
+
+  --primary-background-color: #ffffff;
+  --accent-background-color: #2f303a;
+  --grey-background-color: #f5f4fa;
+  --blue-background-color: #2196f3;
+  --hover-background-color: #188ce8;
+
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+  font-family: var(--primary-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* top line */
+.logo {
+  color: var(--black-text-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-color {
+  color: var(--accent-color);
+}
+
+/* top line Navigation */
+.site-nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.current {
+  color: var(--accent-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.contacts-link {
+  color: var(--secondary-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* Стили для index.html */
+/* section one. hero */
+.hero {
+  background-color: var(--accent-background-color);
+}
+.hero-title {
+  color: var(--second-accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* button */
+.button {
+  color: var(--second-accent-color);
+  background-color: var(--blue-background-color);
+  text-align: center;
+  cursor: pointer;
+}
+.button-service {
+  font-style: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  align-items: center;
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: var(--hover-background-color);
+}
+
+/* section two. list of features */
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-text {
+  color: var(--secondary-text-color);
+}
+
+/* section three */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.imagine-position {
+  height: auto;
+}
+
+/* section four. our team */
+.team-background {
+  background-color: var(--grey-background-color);
+}
+.team-title,
+.team-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team-description {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+}
+.team-list .decoration {
+  background-color: var(--primary-background-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--accent-background-color);
+}
+.footer-logo {
+  color: var(--second-accent-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.adress-style {
+  font-style: normal;
+}
+.residence {
+  color: var(--second-accent-color);
+}
+.data {
+  color: var(--grey-data-color);
+}
+
+/* Стили для portfolio.html */
+/* button section */
+
+.button-primary,
+.button-secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--hover-background-color);
+}
+.button-secondary {
+  color: var(--primary-text-color);
+  background-color: var(--grey-background-color);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--hover-background-color);
+}
+/* projects section*/
+.projects-item {
+  background-color: var(--primary-background-color);
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
