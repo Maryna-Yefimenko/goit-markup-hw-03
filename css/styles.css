@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -36,6 +41,17 @@ ul {
 }
 a {
   text-decoration: none;
+}
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+.section {
+  background-color: var(--primery-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* top line */
