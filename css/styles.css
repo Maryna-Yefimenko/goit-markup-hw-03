@@ -1,8 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -156,6 +151,9 @@ a {
   margin-top: 0;
   margin-bottom: 50px;
 }
+.section.no-padding {
+  padding-top: 0;
+}
 .imagine-position {
   height: auto;
 }
@@ -176,7 +174,7 @@ a {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .team-description {
   color: var(--secondary-text-color);
@@ -209,7 +207,9 @@ a {
 
 /* Стили для portfolio.html */
 /* button section */
-
+.filter {
+  margin-bottom: 50px;
+}
 .button-primary,
 .button-secondary {
   font-weight: 500;
@@ -238,10 +238,12 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .projects-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  padding-bottom: 20px;
 }
