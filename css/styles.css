@@ -41,12 +41,18 @@ a {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .section {
-  background-color: var(--primery-background-color);
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-right: 0;
+  padding-left: 0;
   margin: 0;
+  background-color: var(--primery-background-color);
 }
 
 /* top line */
@@ -62,8 +68,27 @@ a {
 }
 
 /* top line Navigation */
+.main-nav {
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .site-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -76,7 +101,17 @@ a {
 .site-nav-link:focus {
   color: var(--accent-color);
 }
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts .item + .item {
+  margin-left: 50px;
+}
+
 .contacts-link {
+  display: block;
+
   color: var(--secondary-text-color);
 }
 .contacts-link:hover,
@@ -91,52 +126,59 @@ a {
   text-align: center;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--second-accent-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 30px;
 }
 
 /* button */
 .button {
   display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
   color: var(--second-accent-color);
   background-color: var(--blue-background-color);
   text-align: center;
   cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: 4px;
 }
 .button-service {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
+
   font-style: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   align-items: center;
-  padding: 10px 32px;
 }
 .button-service:hover,
 .button-service:focus {
   background-color: var(--hover-background-color);
 }
-.button-primary {
-  padding: 6px 22px;
-}
+.button-primary,
 .button-secondary {
-  padding: 6px 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 /* section two. list of features */
 .feature-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 .feature-text {
   color: var(--secondary-text-color);
@@ -144,17 +186,19 @@ a {
 
 /* section three */
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 50px;
 }
 .section.no-padding {
   padding-top: 0;
 }
 .imagine-position {
+  display: block;
   height: auto;
 }
 
