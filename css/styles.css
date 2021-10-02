@@ -172,6 +172,9 @@ a {
   padding-left: 22px;
 }
 /* section two. list of features */
+.feature-list {
+  display: flex;
+}
 .feature-title {
   margin-bottom: 10px;
 
@@ -193,6 +196,9 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+.occupation-list {
+  display: flex;
 }
 .section.no-padding {
   padding-top: 0;
