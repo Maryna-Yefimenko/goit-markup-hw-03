@@ -175,6 +175,9 @@ a {
 .feature-list {
   display: flex;
 }
+.feature-list .item {
+  width: 270px;
+}
 .feature-title {
   margin-bottom: 10px;
 
@@ -258,6 +261,9 @@ a {
 /* Стили для portfolio.html */
 /* button section */
 .filter {
+  display: flex;
+  flex-wrap: wrap;
+
   margin-bottom: 50px;
 }
 .button-primary,
@@ -281,6 +287,8 @@ a {
 }
 /* projects section*/
 .projects-item {
+  width: 370px;
+
   background-color: var(--primary-background-color);
 }
 .projects-title {
