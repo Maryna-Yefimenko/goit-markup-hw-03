@@ -38,6 +38,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 .container {
   width: 1200px;
   padding-right: 15px;
@@ -113,6 +114,7 @@ a {
 }
 /* Стили для index.html */
 /* section Hero */
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -214,6 +216,7 @@ a {
 .occupation-list .item:not(:last-child) {
   margin-right: 30px;
 }
+
 .imagine-position {
   display: block;
   height: auto;
