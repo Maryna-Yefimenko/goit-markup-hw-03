@@ -56,6 +56,11 @@ a {
   margin: 0;
   background-color: var(--primery-background-color);
 }
+
+.hidden-title {
+  display: none;
+}
+
 /* top line */
 .logo {
   margin-right: 93px;
@@ -277,9 +282,12 @@ a {
 .address-style {
   font-style: normal;
 }
-.residence {
+.address-residence {
   margin-top: 20px;
+}
+.residence {
   color: var(--second-accent-color);
+  cursor: pointer;
 }
 .data {
   margin-top: 9px;
